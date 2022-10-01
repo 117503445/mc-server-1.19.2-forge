@@ -1,0 +1,1 @@
+-javaagent:authlib-injector-1.2.1.jar=skin.zzyym.top

@@ -1,1 +1,3 @@
-# mc-server-1.19.2-mod
+# mc-server-1.19.2-forge
+
+`docker compose up -d`
