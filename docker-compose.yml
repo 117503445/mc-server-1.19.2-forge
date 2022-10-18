@@ -5,6 +5,11 @@ services:
     restart: unless-stopped
     volumes:
       - ./data/world:/root/world
+      - ./data/ops.json:/root/ops.json
+      - ./data/backups:/root/backups
+
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
     ports:
     - "25565:25565"
     stdin_open: true

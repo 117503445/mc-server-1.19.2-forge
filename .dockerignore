@@ -1,0 +1,5 @@
+data/
+backup/
+.git/
+docker-compose.yml
+Dockerfile
